@@ -17,11 +17,13 @@ class presenter: public QObject {
     Q_OBJECT;
 private:
     fenetre *f;
+    QTimer *timerValue;
 
 public:
     explicit presenter(QApplication* application);
     void TestConnection() const;
     void ReplyFinished(QNetworkReply *reply);
+    void timer();
 
     QNetworkAccessManager *manager;
     QString answer;
