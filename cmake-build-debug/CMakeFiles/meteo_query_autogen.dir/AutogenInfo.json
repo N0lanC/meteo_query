@@ -102,6 +102,11 @@
 			"/home/nolcordier/CLionProjects/meteo_query/presenter.h",
 			"Mu",
 			"EWIEGA46WW/moc_presenter.cpp"
+		],
+		[
+			"/home/nolcordier/CLionProjects/meteo_query/qcgaugewidget.h",
+			"Mu",
+			"EWIEGA46WW/moc_qcgaugewidget.cpp"
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
@@ -158,7 +163,8 @@
 		[ "/home/nolcordier/CLionProjects/meteo_query/fenetre.cpp", "Mu" ],
 		[ "/home/nolcordier/CLionProjects/meteo_query/jute.cpp", "Mu" ],
 		[ "/home/nolcordier/CLionProjects/meteo_query/main.cpp", "Mu" ],
-		[ "/home/nolcordier/CLionProjects/meteo_query/presenter.cpp", "Mu" ]
+		[ "/home/nolcordier/CLionProjects/meteo_query/presenter.cpp", "Mu" ],
+		[ "/home/nolcordier/CLionProjects/meteo_query/qcgaugewidget.cpp", "Mu" ]
 	],
 	"VERBOSITY" : 0
 }

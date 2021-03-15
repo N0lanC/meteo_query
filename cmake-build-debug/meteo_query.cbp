@@ -138,6 +138,12 @@
 		<Unit filename="/home/nolcordier/CLionProjects/meteo_query/presenter.h">
 			<Option target="meteo_query"/>
 		</Unit>
+		<Unit filename="/home/nolcordier/CLionProjects/meteo_query/qcgaugewidget.cpp">
+			<Option target="meteo_query"/>
+		</Unit>
+		<Unit filename="/home/nolcordier/CLionProjects/meteo_query/qcgaugewidget.h">
+			<Option target="meteo_query"/>
+		</Unit>
 		<Unit filename="/home/nolcordier/CLionProjects/meteo_query/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

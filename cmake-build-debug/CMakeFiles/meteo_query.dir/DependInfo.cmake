@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/nolcordier/CLionProjects/meteo_query/main.cpp" "/home/nolcordier/CLionProjects/meteo_query/cmake-build-debug/CMakeFiles/meteo_query.dir/main.cpp.o"
   "/home/nolcordier/CLionProjects/meteo_query/cmake-build-debug/meteo_query_autogen/mocs_compilation.cpp" "/home/nolcordier/CLionProjects/meteo_query/cmake-build-debug/CMakeFiles/meteo_query.dir/meteo_query_autogen/mocs_compilation.cpp.o"
   "/home/nolcordier/CLionProjects/meteo_query/presenter.cpp" "/home/nolcordier/CLionProjects/meteo_query/cmake-build-debug/CMakeFiles/meteo_query.dir/presenter.cpp.o"
+  "/home/nolcordier/CLionProjects/meteo_query/qcgaugewidget.cpp" "/home/nolcordier/CLionProjects/meteo_query/cmake-build-debug/CMakeFiles/meteo_query.dir/qcgaugewidget.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -291,6 +291,33 @@ presenter.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/meteo_query.dir/build.make CMakeFiles/meteo_query.dir/presenter.cpp.s
 .PHONY : presenter.cpp.s
 
+qcgaugewidget.o: qcgaugewidget.cpp.o
+
+.PHONY : qcgaugewidget.o
+
+# target to build an object file
+qcgaugewidget.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/meteo_query.dir/build.make CMakeFiles/meteo_query.dir/qcgaugewidget.cpp.o
+.PHONY : qcgaugewidget.cpp.o
+
+qcgaugewidget.i: qcgaugewidget.cpp.i
+
+.PHONY : qcgaugewidget.i
+
+# target to preprocess a source file
+qcgaugewidget.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/meteo_query.dir/build.make CMakeFiles/meteo_query.dir/qcgaugewidget.cpp.i
+.PHONY : qcgaugewidget.cpp.i
+
+qcgaugewidget.s: qcgaugewidget.cpp.s
+
+.PHONY : qcgaugewidget.s
+
+# target to generate assembly for a file
+qcgaugewidget.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/meteo_query.dir/build.make CMakeFiles/meteo_query.dir/qcgaugewidget.cpp.s
+.PHONY : qcgaugewidget.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -316,6 +343,9 @@ help:
 	@echo "... presenter.o"
 	@echo "... presenter.i"
 	@echo "... presenter.s"
+	@echo "... qcgaugewidget.o"
+	@echo "... qcgaugewidget.i"
+	@echo "... qcgaugewidget.s"
 .PHONY : help
 
 

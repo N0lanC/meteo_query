@@ -38,6 +38,13 @@ void presenter::readData() {
             f->getAltvalue()->setText(QString::number(v["altitude"].as_int()));
             f->getPressvalue()->setText(QString::number(v["pression"].as_int()));
             f->getTempvalue()->setText(QString::number(v["temperature"].as_double()));
+
+            f->getMAltNeedle()->setCurrentValue(v["altitude"].as_int());
+            f->getMAltGauge()->repaint();
+            f->getMDegNeedle()->setCurrentValue(v["temperature"].as_double());
+            f->getMDegGauge()->repaint();
+            f->getMPressNeedle()->setCurrentValue(v["pression"].as_int());
+            f->getMPressGauge()->repaint();
     }
 }
 

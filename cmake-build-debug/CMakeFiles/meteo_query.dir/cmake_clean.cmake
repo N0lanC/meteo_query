@@ -7,6 +7,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/meteo_query.dir/main.cpp.o"
   "CMakeFiles/meteo_query.dir/meteo_query_autogen/mocs_compilation.cpp.o"
   "CMakeFiles/meteo_query.dir/presenter.cpp.o"
+  "CMakeFiles/meteo_query.dir/qcgaugewidget.cpp.o"
   "meteo_query"
   "meteo_query.pdb"
 )
