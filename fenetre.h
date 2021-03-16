@@ -24,13 +24,51 @@ private:
     QLabel *pressvalue;
 
 
+private:
+
     QGridLayout *layout;
 
+
+
+
+private:
 
     QPushButton *refreshButton;
 
     QcGaugeWidget *mDegGauge;
+    QcLabelItem *labArrowTendanceDeg;
+    QcLabelItem *labArrowTendanceAlt;
+    QcLabelItem *labArrowTendancePress;
+
+
+public:
+
+    QcNeedleItem *getMDegNeedle() const;
+
+    QcNeedleItem *getTDegNeedle() const;
+
+
+
+    QcNeedleItem *getMAltNeedle() const;
+
+    QcNeedleItem *getMPressNeedle() const;
+
+    QcNeedleItem *getTAltNeedle() const;
+
+    QcNeedleItem *getTPressNeedle() const;
+
+
+    QcLabelItem *getLabArrowTendanceAlt() const;
+    QcLabelItem *getLabArrowTendanceDeg() const;
+    QcLabelItem *getLabArrowTendancePress() const;
+
+private:
     QcGaugeWidget *mAltGauge;
+    QcLabelItem *labUnitTDeg;
+
+
+private:
+    QcDegreesItem *degreesItemtDeg;
 
 
     QcNeedleItem *mDegNeedle;
@@ -40,7 +78,7 @@ private:
 
     QcDegreesItem *degreesItemDeg;
     QcValuesItem *valuesDeg;
-    QcLabelItem *lebUnitDeg;
+    QcLabelItem *labUnitDeg;
     QcLabelItem *labDeg;
 
     QcDegreesItem *degreesItemAlt;
@@ -81,16 +119,11 @@ public:
 
     QcGaugeWidget *getMPressGauge() const;
 
-    QcNeedleItem *getMAltNeedle() const;
-
-    QcNeedleItem *getMPressNeedle() const;
-
 private:
     QcGaugeWidget *mPressGauge;
 
-public:
-    QcNeedleItem *getMDegNeedle() const;
 
+public:
     QLabel *getTempvalue() const;
 
     QLabel *getAltvalue() const;
@@ -98,6 +131,5 @@ public:
     QLabel *getPressvalue() const;
 
 
-    QPushButton *getRefreshButton() const;
 };
 #endif //METEO_QUERY_FENETRE_H

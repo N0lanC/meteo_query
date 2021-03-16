@@ -19,10 +19,62 @@ private:
     fenetre *f;
     QTimer *timerValue;
 
+    double temp;
+    int alt;
+    int press;
+
+    int dureemax;
+    int timerefresh;
+
+    // FONCTION CALCUL TENDANCE °C
+    QVector<double> tendancetemperature;
+    QVector<double> indexTemp;
+    QVector<double> produitTemp;
+    QVector<double> powerTemp;
+    double sumproduitTemp;
+    double sumcarreTemp;
+    int sumindexTemp;
+    double sumdataTemp;
+    int produitdataTemp;
+    int carreTemp;
+    double totalTemp;
+
+    // FONCTION CALCUL TENDANCE ALT
+    QVector<double> tendancealtitude;
+    QVector<double> indexAlt;
+    QVector<double> produitAlt;
+    QVector<double> powerAlt;
+    double sumproduitAlt;
+    double sumcarreAlt;
+    int sumindexAlt;
+    double sumdataAlt;
+    int produitdataAlt;
+    int carreAlt;
+    double totalAlt;
+
+    // FONCTION CALCUL TENDANCE PRESS
+    QVector<double> tendancepressure;
+    QVector<double> indexPress;
+    QVector<double> produitPress;
+    QVector<double> powerPress;
+    double sumproduitPress;
+    double sumcarrePress;
+    int sumindexPress;
+    double sumdataPress;
+    int produitdataPress;
+    int carrePress;
+    double totalPress;
+
 public:
     explicit presenter(QApplication* application);
     void TestConnection() const;
     void ReplyFinished(QNetworkReply *reply);
+
+    void calcultendancetemp();
+    void calcultendancealt();
+    void calcultendancePress();
+
+    void calcul();
 
     QNetworkAccessManager *manager;
     QString answer;
