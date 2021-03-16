@@ -23,7 +23,6 @@ public:
     explicit presenter(QApplication* application);
     void TestConnection() const;
     void ReplyFinished(QNetworkReply *reply);
-    void timer();
 
     QNetworkAccessManager *manager;
     QString answer;
