@@ -6,6 +6,48 @@
 
 #IncludeRegexTransform: 
 
+/home/nolcordier/CLionProjects/meteo_query/cmake-build-debug/meteo_query_autogen/EWIEGA46WW/moc_fenetre.cpp
+../../../fenetre.h
+/home/nolcordier/CLionProjects/meteo_query/fenetre.h
+QtCore/qbytearray.h
+-
+QtCore/qmetatype.h
+-
+
+/home/nolcordier/CLionProjects/meteo_query/cmake-build-debug/meteo_query_autogen/EWIEGA46WW/moc_presenter.cpp
+../../../presenter.h
+/home/nolcordier/CLionProjects/meteo_query/presenter.h
+QtCore/qbytearray.h
+-
+QtCore/qmetatype.h
+-
+
+/home/nolcordier/CLionProjects/meteo_query/cmake-build-debug/meteo_query_autogen/EWIEGA46WW/moc_qcgaugewidget.cpp
+../../../qcgaugewidget.h
+/home/nolcordier/CLionProjects/meteo_query/qcgaugewidget.h
+QtCore/qbytearray.h
+-
+QtCore/qmetatype.h
+-
+
+/home/nolcordier/CLionProjects/meteo_query/cmake-build-debug/meteo_query_autogen/mocs_compilation.cpp
+EWIEGA46WW/moc_fenetre.cpp
+/home/nolcordier/CLionProjects/meteo_query/cmake-build-debug/meteo_query_autogen/EWIEGA46WW/moc_fenetre.cpp
+EWIEGA46WW/moc_presenter.cpp
+/home/nolcordier/CLionProjects/meteo_query/cmake-build-debug/meteo_query_autogen/EWIEGA46WW/moc_presenter.cpp
+EWIEGA46WW/moc_qcgaugewidget.cpp
+/home/nolcordier/CLionProjects/meteo_query/cmake-build-debug/meteo_query_autogen/EWIEGA46WW/moc_qcgaugewidget.cpp
+
+/home/nolcordier/CLionProjects/meteo_query/fenetre.cpp
+fenetre.h
+/home/nolcordier/CLionProjects/meteo_query/fenetre.h
+QtWidgets/QGridLayout
+-
+QDebug
+-
+QtWidgets/QLabel
+-
+
 /home/nolcordier/CLionProjects/meteo_query/fenetre.h
 QMainWindow
 -
@@ -17,6 +59,8 @@ QtWidgets/QPushButton
 -
 QtWidgets/QGridLayout
 -
+qcgaugewidget.h
+/home/nolcordier/CLionProjects/meteo_query/qcgaugewidget.h
 
 /home/nolcordier/CLionProjects/meteo_query/jute.h
 iostream
@@ -33,6 +77,12 @@ fstream
 -
 cstring
 -
+
+/home/nolcordier/CLionProjects/meteo_query/main.cpp
+iostream
+-
+presenter.h
+/home/nolcordier/CLionProjects/meteo_query/presenter.h
 
 /home/nolcordier/CLionProjects/meteo_query/presenter.cpp
 presenter.h
@@ -56,6 +106,18 @@ QApplication
 QtWidgets/QMessageBox
 -
 
+/home/nolcordier/CLionProjects/meteo_query/qcgaugewidget.h
+QWidget
+-
+QPainter
+-
+QObject
+-
+QRectF
+-
+QtMath
+-
+
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QByteArray
 qbytearray.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearray.h
@@ -63,6 +125,10 @@ qbytearray.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QCryptographicHash
 qcryptographichash.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qcryptographichash.h
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug
+qdebug.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QFlags
 qflags.h
@@ -87,6 +153,10 @@ qmetatype.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
 qobject.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/QRectF
+qrect.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qrect.h
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QSharedDataPointer
 qshareddata.h
@@ -471,6 +541,10 @@ qtcoreversion.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qtcoreversion.h
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QtCoreDepends
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/QtMath
+qmath.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qmath.h
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractanimation.h
 QtCore/qobject.h
@@ -1974,6 +2048,10 @@ QtCore/qvector.h
 QtCore/qscopedpointer.h
 -
 
+/usr/include/x86_64-linux-gnu/qt5/QtGui/QPainter
+qpainter.h
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qpainter.h
+
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h
 QtGui/qtguiglobal.h
 -
@@ -2162,6 +2240,38 @@ QtGui/qwindowdefs.h
 QtCore/qrect.h
 -
 
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qpainter.h
+QtGui/qtguiglobal.h
+-
+QtCore/qnamespace.h
+-
+QtCore/qrect.h
+-
+QtCore/qpoint.h
+-
+QtCore/qscopedpointer.h
+-
+QtGui/qpixmap.h
+-
+QtGui/qimage.h
+-
+QtGui/qtextoption.h
+-
+QtGui/qpolygon.h
+-
+QtGui/qpen.h
+-
+QtGui/qbrush.h
+-
+QtGui/qmatrix.h
+-
+QtGui/qtransform.h
+-
+QtGui/qfontinfo.h
+-
+QtGui/qfontmetrics.h
+-
+
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qpainterpath.h
 QtGui/qtguiglobal.h
 -
@@ -2182,6 +2292,14 @@ QtCore/qscopedpointer.h
 QtGui/qtguiglobal.h
 -
 QtGui/qwindowdefs.h
+-
+QtGui/qcolor.h
+-
+QtGui/qbrush.h
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qpen.h
+QtGui/qtguiglobal.h
 -
 QtGui/qcolor.h
 -
@@ -2242,6 +2360,16 @@ QtCore/qprocessordetection.h
 QtGui/qtguiglobal.h
 -
 QtCore/qprocessordetection.h
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qtextoption.h
+QtGui/qtguiglobal.h
+-
+QtCore/qnamespace.h
+-
+QtCore/qchar.h
+-
+QtCore/qmetatype.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qtgui-config.h
@@ -2863,6 +2991,10 @@ qmessagebox.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton
 qpushbutton.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget
+qwidget.h
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractbutton.h
 QtWidgets/qtwidgetsglobal.h

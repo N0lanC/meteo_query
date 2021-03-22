@@ -19,19 +19,7 @@ public:
 
 private:
 
-    QLabel *tempvalue;
-    QLabel *altvalue;
-    QLabel *pressvalue;
-
-
-private:
-
     QGridLayout *layout;
-
-
-
-
-private:
 
     QPushButton *refreshButton;
 
@@ -66,8 +54,6 @@ private:
     QcGaugeWidget *mAltGauge;
     QcLabelItem *labUnitTDeg;
 
-
-private:
     QcDegreesItem *degreesItemtDeg;
 
 
@@ -121,15 +107,6 @@ public:
 
 private:
     QcGaugeWidget *mPressGauge;
-
-
-public:
-    QLabel *getTempvalue() const;
-
-    QLabel *getAltvalue() const;
-
-    QLabel *getPressvalue() const;
-
 
 };
 #endif //METEO_QUERY_FENETRE_H

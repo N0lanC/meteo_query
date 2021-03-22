@@ -4,7 +4,11 @@
 CMakeFiles/meteo_query.dir/fenetre.cpp.o
  /home/nolcordier/CLionProjects/meteo_query/fenetre.cpp
  /home/nolcordier/CLionProjects/meteo_query/fenetre.h
+ /home/nolcordier/CLionProjects/meteo_query/qcgaugewidget.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QRectF
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QtMath
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic.h
@@ -39,6 +43,7 @@ CMakeFiles/meteo_query.dir/fenetre.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlogging.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmargins.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qmath.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmetatype.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmutex.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qnamespace.h
@@ -77,6 +82,7 @@ CMakeFiles/meteo_query.dir/fenetre.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/QPainter
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcolor.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h
@@ -89,14 +95,17 @@ CMakeFiles/meteo_query.dir/fenetre.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qkeysequence.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qmatrix.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpaintdevice.h
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qpainter.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpainterpath.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpalette.h
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qpen.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixelformat.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixmap.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpolygon.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qregion.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgb.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgba64.h
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextoption.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtgui-config.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtouchdevice.h
@@ -109,6 +118,7 @@ CMakeFiles/meteo_query.dir/fenetre.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractbutton.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qboxlayout.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h
@@ -130,6 +140,7 @@ CMakeFiles/meteo_query.dir/main.cpp.o
  /home/nolcordier/CLionProjects/meteo_query/fenetre.h
  /home/nolcordier/CLionProjects/meteo_query/main.cpp
  /home/nolcordier/CLionProjects/meteo_query/presenter.h
+ /home/nolcordier/CLionProjects/meteo_query/qcgaugewidget.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QByteArray
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QCryptographicHash
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QFlags
@@ -138,6 +149,7 @@ CMakeFiles/meteo_query.dir/main.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QList
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QMetaType
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QRectF
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QSharedDataPointer
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QString
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QStringList
@@ -146,6 +158,7 @@ CMakeFiles/meteo_query.dir/main.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QVector
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QtCore
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QtCoreDepends
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QtMath
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractanimation.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qabstracteventdispatcher.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractitemmodel.h
@@ -335,6 +348,7 @@ CMakeFiles/meteo_query.dir/main.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qwaitcondition.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qwineventnotifier.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qxmlstream.h
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/QPainter
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcolor.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h
@@ -349,14 +363,17 @@ CMakeFiles/meteo_query.dir/main.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qkeysequence.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qmatrix.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpaintdevice.h
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qpainter.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpainterpath.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpalette.h
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qpen.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixelformat.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixmap.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpolygon.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qregion.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgb.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgba64.h
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextoption.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtgui-config.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtouchdevice.h
@@ -421,6 +438,7 @@ CMakeFiles/meteo_query.dir/main.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMessageBox
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractbutton.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qboxlayout.h
@@ -442,9 +460,11 @@ CMakeFiles/meteo_query.dir/main.cpp.o
 CMakeFiles/meteo_query.dir/meteo_query_autogen/mocs_compilation.cpp.o
  /home/nolcordier/CLionProjects/meteo_query/cmake-build-debug/meteo_query_autogen/EWIEGA46WW/moc_fenetre.cpp
  /home/nolcordier/CLionProjects/meteo_query/cmake-build-debug/meteo_query_autogen/EWIEGA46WW/moc_presenter.cpp
+ /home/nolcordier/CLionProjects/meteo_query/cmake-build-debug/meteo_query_autogen/EWIEGA46WW/moc_qcgaugewidget.cpp
  /home/nolcordier/CLionProjects/meteo_query/cmake-build-debug/meteo_query_autogen/mocs_compilation.cpp
  /home/nolcordier/CLionProjects/meteo_query/fenetre.h
  /home/nolcordier/CLionProjects/meteo_query/presenter.h
+ /home/nolcordier/CLionProjects/meteo_query/qcgaugewidget.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QByteArray
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QCryptographicHash
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QFlags
@@ -453,6 +473,7 @@ CMakeFiles/meteo_query.dir/meteo_query_autogen/mocs_compilation.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QList
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QMetaType
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QRectF
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QSharedDataPointer
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QString
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QStringList
@@ -461,6 +482,7 @@ CMakeFiles/meteo_query.dir/meteo_query_autogen/mocs_compilation.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QVector
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QtCore
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QtCoreDepends
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QtMath
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractanimation.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qabstracteventdispatcher.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractitemmodel.h
@@ -650,6 +672,7 @@ CMakeFiles/meteo_query.dir/meteo_query_autogen/mocs_compilation.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qwaitcondition.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qwineventnotifier.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qxmlstream.h
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/QPainter
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcolor.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h
@@ -664,14 +687,17 @@ CMakeFiles/meteo_query.dir/meteo_query_autogen/mocs_compilation.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qkeysequence.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qmatrix.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpaintdevice.h
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qpainter.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpainterpath.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpalette.h
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qpen.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixelformat.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixmap.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpolygon.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qregion.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgb.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgba64.h
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextoption.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtgui-config.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtouchdevice.h
@@ -736,6 +762,7 @@ CMakeFiles/meteo_query.dir/meteo_query_autogen/mocs_compilation.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMessageBox
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractbutton.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qboxlayout.h
@@ -759,6 +786,7 @@ CMakeFiles/meteo_query.dir/presenter.cpp.o
  /home/nolcordier/CLionProjects/meteo_query/jute.h
  /home/nolcordier/CLionProjects/meteo_query/presenter.cpp
  /home/nolcordier/CLionProjects/meteo_query/presenter.h
+ /home/nolcordier/CLionProjects/meteo_query/qcgaugewidget.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QByteArray
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QCryptographicHash
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QFlags
@@ -767,6 +795,7 @@ CMakeFiles/meteo_query.dir/presenter.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QList
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QMetaType
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QRectF
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QSharedDataPointer
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QString
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QStringList
@@ -775,6 +804,7 @@ CMakeFiles/meteo_query.dir/presenter.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QVector
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QtCore
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QtCoreDepends
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QtMath
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractanimation.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qabstracteventdispatcher.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractitemmodel.h
@@ -964,6 +994,7 @@ CMakeFiles/meteo_query.dir/presenter.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qwaitcondition.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qwineventnotifier.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qxmlstream.h
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/QPainter
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcolor.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h
@@ -978,14 +1009,17 @@ CMakeFiles/meteo_query.dir/presenter.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qkeysequence.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qmatrix.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpaintdevice.h
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qpainter.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpainterpath.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpalette.h
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qpen.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixelformat.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixmap.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpolygon.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qregion.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgb.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgba64.h
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextoption.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtgui-config.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtouchdevice.h
@@ -1050,6 +1084,7 @@ CMakeFiles/meteo_query.dir/presenter.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMessageBox
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractbutton.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qboxlayout.h
@@ -1065,6 +1100,120 @@ CMakeFiles/meteo_query.dir/presenter.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtabwidget.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgets-config.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h
+CMakeFiles/meteo_query.dir/qcgaugewidget.cpp.o
+ /home/nolcordier/CLionProjects/meteo_query/qcgaugewidget.cpp
+ /home/nolcordier/CLionProjects/meteo_query/qcgaugewidget.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QRectF
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QtMath
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic_bootstrap.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic_cxx11.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic_msvc.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qbasicatomic.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearray.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearraylist.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qchar.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qcompilerdetection.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qconfig-bootstrapped.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qconfig.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainerfwd.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontiguouscache.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreevent.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qdatastream.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qfile.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qfiledevice.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qflags.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qgenericatomic.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobalstatic.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qhash.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qhashfunctions.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qiodevice.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qiterator.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qline.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qlocale.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qlogging.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qmargins.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qmath.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qmetatype.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qmutex.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qnamespace.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qnumeric.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject_impl.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs_impl.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qpair.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qpoint.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qprocessordetection.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qrect.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qrefcount.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qregexp.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qscopedpointer.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qset.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qshareddata.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer_impl.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qsize.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringalgorithms.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringbuilder.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringlist.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringliteral.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringmatcher.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringview.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qsysinfo.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qsystemdetection.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qtcore-config.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qtextstream.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qtypeinfo.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qurl.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qurlquery.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/QPainter
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qcolor.h
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qevent.h
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qfont.h
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontinfo.h
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontmetrics.h
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qimage.h
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qkeysequence.h
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qmatrix.h
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qpaintdevice.h
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qpainter.h
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qpainterpath.h
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qpalette.h
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qpen.h
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixelformat.h
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixmap.h
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qpolygon.h
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qregion.h
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgb.h
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgba64.h
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextoption.h
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qtgui-config.h
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qtouchdevice.h
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qtransform.h
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qvector2d.h
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs_win.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgets-config.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h

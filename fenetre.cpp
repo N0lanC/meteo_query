@@ -10,17 +10,6 @@
 
 fenetre::fenetre() : QFrame() {
 
-    altvalue =new QLabel;
-    tempvalue =new QLabel;
-    pressvalue =new QLabel;
-
-
-
-
-    altvalue->setStyleSheet("QLabel { color : blue; }");
-    tempvalue->setStyleSheet("QLabel { color : black; }");
-    pressvalue->setStyleSheet("QLabel { color : red; }");
-
 
 
 
@@ -277,8 +266,6 @@ fenetre::fenetre() : QFrame() {
     tPressGauge->addBackground(7);
 
 
-
-
     layout->addWidget(mDegGauge,1,0);
     layout->addWidget(mAltGauge,1,1);
     layout->addWidget(mPressGauge,1,2);
@@ -287,26 +274,8 @@ fenetre::fenetre() : QFrame() {
     layout->addWidget(tPressGauge, 2,2);
 
 
-
-    layout->addWidget(tempvalue,3,0);
-    layout->addWidget(altvalue,3,1);
-    layout->addWidget(pressvalue,3,2);
-
-
-
-
-
     setLayout(layout);
 
-
-}
-
-QLabel *fenetre::getTempvalue() const {
-    return tempvalue;
-}
-
-QLabel *fenetre::getAltvalue() const {
-    return altvalue;
 }
 
 
@@ -359,3 +328,4 @@ QcLabelItem *fenetre::getLabArrowTendanceDeg() const {
 QcLabelItem *fenetre::getLabArrowTendancePress() const {
     return labArrowTendancePress;
 }
+

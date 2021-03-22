@@ -17,7 +17,7 @@ class presenter: public QObject {
     Q_OBJECT;
 private:
     fenetre *f;
-    QTimer *timerValue;
+    QTimer *timerConnection;
 
     double temp;
     int alt;
@@ -75,6 +75,7 @@ public:
     void calcultendancePress();
 
     void calcul();
+
 
     QNetworkAccessManager *manager;
     QString answer;

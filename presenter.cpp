@@ -9,16 +9,16 @@ using namespace std;
 presenter::presenter(QApplication *application) {
     f=new fenetre;
     dureemax = 10;
-    manager = new QNetworkAccessManager(application);
+    manager = new QNetworkAccessManager(this);
 
-    timerValue = new QTimer(); // création timer
-    connect(timerValue,&QTimer::timeout, this,&presenter::TestConnection);
-    timerValue->start(7000);
 
+    timerConnection = new QTimer();// création timer
+    connect(timerConnection,&QTimer::timeout, this,&presenter::TestConnection);
+    timerConnection->start(4000);
     f->show();
 
-
 }
+
 
 
 void presenter::TestConnection() const {
@@ -28,6 +28,7 @@ void presenter::TestConnection() const {
 
 void presenter::ReplyFinished(QNetworkReply *reply) {
     answer = reply->readAll();
+
     readData();
 }
 
@@ -42,15 +43,12 @@ void presenter::readData() {
             alt = v["altitude"].as_int();
             press = v["pression"].as_double();
 
-            f->getAltvalue()->setText(QString::number(v["altitude"].as_int()));
-            f->getPressvalue()->setText(QString::number(v["pression"].as_double()));
-            f->getTempvalue()->setText(QString::number(v["temperature"].as_double()));
 
-            f->getMAltNeedle()->setCurrentValue(v["altitude"].as_int());
+            f->getMAltNeedle()->setCurrentValue(alt);
             f->getMAltGauge()->repaint();
-            f->getMDegNeedle()->setCurrentValue(v["temperature"].as_double());
+            f->getMDegNeedle()->setCurrentValue(temp);
             f->getMDegGauge()->repaint();
-            f->getMPressNeedle()->setCurrentValue(v["pression"].as_double());
+            f->getMPressNeedle()->setCurrentValue(press);
             f->getMPressGauge()->repaint();
     }
     calcul();

@@ -54,10 +54,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/139/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/145/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/139/bin/cmake/linux/bin/cmake -E rm -f
+RM = /snap/clion/145/bin/cmake/linux/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -75,7 +75,7 @@ include CMakeFiles/meteo_query_autogen.dir/progress.make
 
 CMakeFiles/meteo_query_autogen:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nolcordier/CLionProjects/meteo_query/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target meteo_query"
-	/snap/clion/139/bin/cmake/linux/bin/cmake -E cmake_autogen /home/nolcordier/CLionProjects/meteo_query/cmake-build-debug/CMakeFiles/meteo_query_autogen.dir/AutogenInfo.json Debug
+	/snap/clion/145/bin/cmake/linux/bin/cmake -E cmake_autogen /home/nolcordier/CLionProjects/meteo_query/cmake-build-debug/CMakeFiles/meteo_query_autogen.dir/AutogenInfo.json Debug
 
 meteo_query_autogen: CMakeFiles/meteo_query_autogen
 meteo_query_autogen: CMakeFiles/meteo_query_autogen.dir/build.make
