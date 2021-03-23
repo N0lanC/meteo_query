@@ -7,36 +7,39 @@
 
 using namespace std;
 presenter::presenter(QApplication *application) {
-    f=new fenetre;
-    dureemax = 10;
-    manager = new QNetworkAccessManager(this);
+    f=new fenetre; // on créer l'objet f de type fenetre
+    dureemax = 10; // on definie la vraiable a 10
+    manager = new QNetworkAccessManager(this); // un instancie l'objet manager de type QNetworkaccessmanager avec comme parent cette classe
 
 
     timerConnection = new QTimer();// création timer
-    connect(timerConnection,&QTimer::timeout, this,&presenter::TestConnection);
-    timerConnection->start(4000);
-    f->show();
+    connect(timerConnection,&QTimer::timeout, this,&presenter::TestConnection); // on connecte le timer et la fonction testconnection, des que le timer est terminé il lance la fonction test connection
+    timerConnection->start(4000); // on start le timer pour 4000 msec
+    f->show(); // on appelle la methode show pour affiché la fenetre
+
+    f->setWindowTitle("Station Météo"); // changement du nom de la fenetre
+    f->setStyleSheet("background-color: black;"); // Changement couleur du fond
 
 }
 
 
 
 void presenter::TestConnection() const {
-    connect(manager, &QNetworkAccessManager::finished,this, &presenter::ReplyFinished);
-    manager->get(QNetworkRequest(QUrl("http://192.168.104.172/meteo/lastrow.php")));
+    connect(manager, &QNetworkAccessManager::finished,this, &presenter::ReplyFinished); // quand l'objet manager recoit la reponse a sa requete il lance la fonction replyfinished avec comme attribut la reponse de la requete
+    manager->get(QNetworkRequest(QUrl("http://192.168.104.172/meteo/lastrow.php"))); // envoie la requete
 }
 
 void presenter::ReplyFinished(QNetworkReply *reply) {
-    answer = reply->readAll();
-
-    readData();
+    answer = reply->readAll(); // answer prend la valeur de la trame reply
+    //qDebug() << answer;
+    readData(); // appel de la fonction readData
 }
 
 void presenter::readData() {
     QString rxBytes;
-    rxBytes.append(answer);//lit les données provenant du port série
+    rxBytes.append(answer);//lit les données provenant de la requete
     int end = rxBytes.lastIndexOf("\r\n") + 2;//la position de le dernière mesure
-    QStringList cmds = QString(rxBytes.mid(0, end)).split("\r\n", QString::SkipEmptyParts); //décompose les différentes la ligne et stock dans une QStringLis
+    QStringList cmds = QString(rxBytes.mid(0, end)).split("\r\n", QString::SkipEmptyParts); //décompose les différentes ligne et stock dans une QStringList      SkipEmptyParts-> on passe les cases vides
     for (QString cmd : cmds) { //parcours la QstringList et affiche le contenu
             jute::jValue v = jute::parser::parse(answer.toStdString());
             temp = v["temperature"].as_double();
