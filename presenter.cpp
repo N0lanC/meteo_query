@@ -40,7 +40,7 @@ void presenter::readData() {
     int end = data.lastIndexOf("\r\n") + 2;//la position de le dernière mesure
     QStringList cmds = QString(data.mid(0, end)).split("\r\n", QString::SkipEmptyParts); //décompose les différentes ligne et stock dans une QStringList      SkipEmptyParts-> on passe les cases vides
     for (QString cmd : cmds) { //parcours la QstringList et affiche le contenu
-            jute::jValue v = jute::parser::parse(answer.toStdString()); // parser : analyse et découpe de la trame par jetons et on ajoute ces jetons dans le vecteur v
+            jute::jValue v = jute::parser::parse(answer.toStdString()); // parser : analyse et découpe de la trame par clés et on ajoute ces jetons dans le vecteur v
             temp = v["temperature"].as_double(); // conversion de Qstring è double
             alt = v["altitude"].as_int();
             press = v["pression"].as_double();
