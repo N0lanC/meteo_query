@@ -44,52 +44,12 @@ void setup(void)  // Start of setup
     // Set display orientation:
     ucg.setRotate180();  // Put 90, 180 or 270, or comment to leave default
 
-    // Set text orientation:
-    // It only alters the text, not the entire display
-    //ucg.setPrintDir(0);  // 0, 1, 2 or 3 to change orientation of text. If not specify, orientation is 0
-
-
-
 
     ucg.setFont(ucg_font_7x14B_tf);
 
+    affichage();
 
-
-
-
-    // We are going to print on the display everything that is static on the setup, to leave the loop free for dynamic elements:
-
-
-    // Write to the display the text "World":
-    ucg.setColor(0, 0, 0, 255);  // Set color (0,R,G,B)
-    ucg.setPrintPos(10,15);  // Set position (x,y)
-    ucg.print("Altitude :");  // Print text or value
-
-    ucg.setColor(0, 255, 255, 255);  // Set color (0,R,G,B)
-    ucg.setPrintPos(10,65);  // Set position (x,y)
-    ucg.print("Temperature :");  // Print text or value
-
-    ucg.setColor(0, 255, 0, 0);  // Set color (0,R,G,B)
-    ucg.setPrintPos(10,115);  // Set position (x,y)
-    ucg.print("Pression :");  // Print text or value
-
-
-    // Draw rectangle:
-    ucg.setColor(255, 255, 255);  // Set color (0,R,G,B)
-    ucg.drawFrame(20, 20, 100, 30);  // Start from top-left pixel (x,y,wigth,height)
-
-    // Draw rectangle:
-    ucg.setColor(255, 255, 255);  // Set color (0,R,G,B)
-    ucg.drawFrame(20, 70, 100, 30);  // Start from top-left pixel (x,y,wigth,height)
-
-    // Draw rectangle:
-    ucg.setColor(255, 255, 255);  // Set color (0,R,G,B)
-    ucg.drawFrame(20, 120, 100, 30);  // Start from top-left pixel (x,y,wigth,height)
-
-
-
-
-  startconnexion();
+    startconnexion();
 }  // End of setup
 
 
@@ -110,7 +70,6 @@ void loop(void)  // Start of loop
 
 
     setvalue();
-
 
 }  // End of loop
 
@@ -201,4 +160,32 @@ void setvalue() {
     ucg.setPrintPos(35,145);  // Set position (x,y)
    // ucg.print(string);  // Print text or value
     ucg.print(mySensor.readFloatPressure()/100);
+}
+
+void affichage() {
+  // Write to the display the text "Altitude":
+    ucg.setColor(0, 0, 0, 255);  // Set color (0,R,G,B)
+    ucg.setPrintPos(10,15);  // Set position (x,y)
+    ucg.print("Altitude :");  // Print text or value
+// Write to the display the text "Temperature":
+    ucg.setColor(0, 255, 255, 255);  // Set color (0,R,G,B)
+    ucg.setPrintPos(10,65);  // Set position (x,y)
+    ucg.print("Temperature :");  // Print text or value
+// Write to the display the text "Pression":
+    ucg.setColor(0, 255, 0, 0);  // Set color (0,R,G,B)
+    ucg.setPrintPos(10,115);  // Set position (x,y)
+    ucg.print("Pression :");  // Print text or value
+
+// Draw first rectangle (altitude):
+    // Draw rectangle:
+    ucg.setColor(255, 255, 255);  // Set color (0,R,G,B)
+    ucg.drawFrame(20, 20, 100, 30);  // Start from top-left pixel (x,y,wigth,height)
+// Draw second rectangle (temperature):
+    // Draw rectangle:
+    ucg.setColor(255, 255, 255);  // Set color (0,R,G,B)
+    ucg.drawFrame(20, 70, 100, 30);  // Start from top-left pixel (x,y,wigth,height)
+// Draw third rectangle (pression):
+    // Draw rectangle:
+    ucg.setColor(255, 255, 255);  // Set color (0,R,G,B)
+    ucg.drawFrame(20, 120, 100, 30);  // Start from top-left pixel (x,y,wigth,height)
 }
